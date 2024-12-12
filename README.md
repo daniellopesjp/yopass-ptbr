@@ -15,7 +15,7 @@ Yopass will automatically detect the new language and activate it if your Browse
 
 ### Container
 
-Check this repository out and build your own container with the spanish language file included to the original Yopass-Image from docker.io.
+Check this repository out and build your own container with the brazilian portuguese language file included to the original Yopass-Image from docker.io.
 
 ```
 git clone https://github.com/daniellopesjp/yopass-ptbr.git
