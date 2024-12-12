@@ -1,0 +1,93 @@
+{
+  "create": {
+    "title": "Criptografar mensagem",
+    "inputSecretLabel": "Mensagem secreta",
+    "inputSecretPlaceholder": "Mensagem para criptografar localmente no seu navegador",
+    "buttonEncrypt": "Criptografar mensagem",
+    "buttonEncryptLoading": "Criptografando mensagem...",
+    "inputOneTimeLabel": "Download único",
+    "inputPasswordLabel": "Chave de descriptografia personalizada",
+    "inputGenerateLabel": "Gerar chave de descriptografia"
+  },
+  "upload": {
+    "title": "Solte o arquivo para enviar",
+    "caption": "O envio de arquivos foi projetado para pequenos arquivos como chaves SSH e certificados.",
+    "errorFileTooLarge": "O arquivo é muito grande"
+  },
+  "display": {
+    "titleFetching": "Buscando no banco de dados, por favor aguarde...",
+    "titleDecrypting": "Descriptografando, por favor aguarde...",
+    "titleDecryptionKey": "Digite a chave de descriptografia",
+    "captionDecryptionKey": "Não atualize esta janela, pois o segredo pode estar restrito a um único download.",
+    "inputDecryptionKeyPlaceholder": "Chave de descriptografia",
+    "inputDecryptionKeyLabel": "Uma chave de descriptografia é necessária, por favor insira-a abaixo",
+    "errorInvalidPassword": "Chave inválida, tente novamente",
+    "buttonDecrypt": "Descriptografar segredo"
+  },
+  "error": {
+    "title": "O segredo não existe",
+    "subtitle": "Isso pode ter ocorrido por um dos seguintes motivos:",
+    "titleOpened": "Já foi aberto",
+    "subtitleOpenedBefore": "O segredo pode estar limitado a apenas um download. Se o remetente abriu o link antes de você, o segredo foi perdido.",
+    "subtitleOpenedCompromised": "O segredo pode ter sido acessado por outra pessoa. Entre em contato com o remetente e solicite um novo segredo.",
+    "titleBrokenLink": "Link quebrado",
+    "subtitleBrokenLink": "A descriptografia só funcionará se o link estiver completo e correto. Verifique se não há partes faltando ou caracteres incorretos.",
+    "titleExpired": "Segredo expirado",
+    "subtitleExpired": "Os segredos têm um prazo de validade e se autodestroem após um período definido. Esse tempo pode variar de uma hora a uma semana."
+  },
+  "result": {
+    "title": "Segredo armazenado no banco de dados",
+    "subtitleDownloadOnce": "Lembre-se: os segredos só podem ser baixados uma única vez, a menos que você tenha configurado outra opção. Por isso, evite abrir o link por conta própria.",
+    "subtitleChannel": "Para maior segurança, envie a chave de descriptografia por um canal de comunicação separado.",
+    "rowLabelOneClick": "Link de um clique",
+    "rowLabelShortLink": "Link curto",
+    "rowLabelDecryptionKey": "Chave de descriptografia"
+  },
+  "secret": {
+    "titleFile": "Arquivo baixado",
+    "titleMessage": "Mensagem descriptografada",
+    "subtitleMessage": "Este segredo pode não ser visualizável novamente, certifique-se de salvá-lo agora!",
+    "buttonCopy": "Copiar"
+  },
+  "delete": {
+    "buttonDelete": "Excluir",
+    "messageDeleted": "O segredo foi removido do servidor!",
+    "dialogTitle": "Excluir segredo?",
+    "dialogMessage": "Você tem certeza de que deseja remover este segredo?",
+    "dialogProgress": "Excluindo...",
+    "dialogConfirm": "Excluir",
+    "dialogCancel": "Cancelar"
+  },
+  "attribution": {
+    "createdBy": "Criado por",
+    "translatedBy": "Traduzido por",
+    "translatorName": "Daniel Lopes",
+    "translatorLink": "https://github.com/daniellopesjp"
+  },
+  "expiration": {
+    "legend": "A mensagem criptografada será excluída automaticamente após",
+    "optionOneHourLabel": "Uma hora",
+    "optionOneDayLabel": "Um dia",
+    "optionOneWeekLabel": "Uma semana"
+  },
+  "features": {
+    "title": "Compartilhe segredos com segurança e facilidade",
+    "subtitle": "Yopass foi criado para reduzir a quantidade de senhas em texto claro armazenadas em e-mails e conversas de bate-papo, criptografando e gerando um link de curta duração que pode ser visualizado apenas uma vez.",
+    "featureEndToEndTitle": "Criptografia ponta a ponta",
+    "featureEndToEndText": "A criptografia e descriptografia são feitas localmente no navegador. A chave nunca é armazenada com o Yopass.",
+    "featureSelfDestructionTitle": "Autodestruição",
+    "featureSelfDestructionText": "Mensagens criptografadas têm um tempo de vida fixo e serão excluídas automaticamente após a expiração.",
+    "featureOneTimeTitle": "Downloads únicos",
+    "featureOneTimeText": "A mensagem criptografada pode ser baixada apenas uma vez, reduzindo o risco de alguém espiar seus segredos.",
+    "featureSimpleSharingTitle": "Compartilhamento simples",
+    "featureSimpleSharingText": "O Yopass gera um link único de um clique para o arquivo ou mensagem criptografados. A senha de descriptografia pode ser enviada separadamente.",
+    "featureNoAccountsTitle": "Sem necessidade de contas",
+    "featureNoAccountsText": "Compartilhar deve ser rápido e fácil; Nenhuma informação adicional, exceto o segredo criptografado, é armazenada no banco de dados.",
+    "featureOpenSourceTitle": "Software de código aberto",
+    "featureOpenSourceText": "Os mecanismos de criptografia do Yopass são baseados em software de código aberto, oferecendo total transparência com a possibilidade de auditoria e envio de recursos."
+  },
+  "header": {
+    "buttonHome": "Início",
+    "buttonUpload": "Enviar"
+  }
+}
